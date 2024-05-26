@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  height: 100px;
+  border: 0.7px solid rgb(220, 236, 255);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 27px;
+}
+
+.header-logo {
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  margin-top: 12px;
+}
+
+.header-nav>a {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+}
+
+.header-nav>a:hover {
+  text-decoration: solid #0596f1 underline;
+}
+
+.header-appointment {
+  margin-top: 12px;
+  margin-right: 13px;
+}
+
+.header-appointment>a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 16px;
+  color: white;
+  background-color: #009dff;
+  font-size: 22px;
+}
+
+.header-appointment>a:hover {
+  background-color: white;
+  color: #0086da;
+  transition: background-color 0.3s ease;
+}
+
+.doc1-img {
+  width: 1407px;
+  height: 100vh;
+  object-fit: cover;
+  background-size: contain;
+}
+
+.boy1h1 {
+  position: absolute;
+  top: 43%;
+  left: 47px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 4rem;
+}
+
+.boy1p1 {
+  position: absolute;
+  top: 59%;
+  left: 48px;
+  transform: translateY(-50%);
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+
+.btn a {
+  position: absolute;
+  top: 82%;
+  left: 48px;
+  transform: translateY(-50%);
+  color: #050000;
+  font-size: 1.2rem;
+  background-color: #009dff;
+  color: #0086da;
+  padding: 12px 26px;
+  color: white;
+  border: #0086da;
+}
+
+.btn>a {
+  text-decoration: none;
+}
+
+.btn a:hover {
+  background-color: white;
+  color: #0086da;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.box1,
+.box2,
+.box3 {
+  flex: 1;
+  padding: 30px;
+  text-align: center;
+  background-color: #009dff21;
+  box-shadow: 3px 7px 17px rgba(46, 44, 44, 0.7);
+}
+
+.heading-card {
+  font-size: 24px;
+  margin-top: 0px;
+  padding: 16px;
+}
+
+.para-card {
+  font-size: 16px;
+  margin-top: 0px;
+  padding: 16px;
+}
+
+.btn-card {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  background-color: #009dff;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.btn-card:hover {
+  background-color: #ffffff;
+  color: #0086da;
+  transition: background-color 0.3s ease;
+}
+
+.two-images {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 100px;
+  display: flex;
+  background-color: #009dff21;
+  box-shadow: 4px 5px 50px rgb(25, 34, 47);
+}
+
+.png2 {
+  position: absolute;
+  top: 90px;
+  left: 190px;
+  box-shadow: 1px 2px 30px #6b7d89;
+  border-radius: 50%;
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.png1 {
+  box-shadow: 1px 2px 30px #567081;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.content {
+  top: 80px;
+  position: absolute;
+  left: 690px;
+}
+
+#btn-4 a {
+  padding: 7px 9px;
+  text-decoration: none;
+  background-color: #009dff;
+  color: white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+#btn-4 a:hover {
+  background-color: white;
+  color: #0087da;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+
+.appointment-book {
+  position: relative;
+
+
+}
+
+.appointment-book>p {
+  height: 368px;
+  width: 1407px;
+  background-color: #1212128b;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.appointment-book-img {
+  width: 1407px;
+  position: absolute;
+  margin-top: 40px;
+
+}
+
+footer {
+  background-color: black;
+  margin-top: 400px;
+  height: 80px;
+  position: relative;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  letter-spacing: 1.2px;
+  left: 589px;
+  padding-bottom: 30px;
+}
